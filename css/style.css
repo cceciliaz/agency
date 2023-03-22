@@ -31,6 +31,7 @@ body{
     flex: 70%;
     text-align: right;
     padding: 20px;
+    font-weight: 900;
 }
 .menu a{
     color: #59342C;
@@ -60,8 +61,8 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-   
     color: #59342C;
+    font-weight: 600;
 }
 .headline{
     margin-left: 10%;
@@ -99,7 +100,65 @@ section{
     margin-top: 80px;
     margin-left: 5%;
     margin-right: 5%;
-    border: 4px solid black;
-    height: 400px;
     display: inline-block;
+    text-align: center;
+    padding: 5%;
+    font-weight: 600;
+}
+section h2{
+    width: 100%;
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    color: #59342C;
+}
+.servico{
+    display: inline-block;
+    margin-top: 5%;
+
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1.5px solid #023059;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.texto-oculto{
+    display: none;
+}
+.card:hover{
+    background-color:#023059 ;
+    color: #F2CAA7;
+    padding: 40px ;
+}
+.card:hover img{
+    display: none;
+}
+.card:hover .card-text{
+    display: none;
+}
+.card:hover .texto-oculto{
+    display: block;
+}
+footer{
+    margin-top: 100px;
+    height: 140px;
+    background-image:linear-gradient(to bottom,#5D7CA6, #73A2BF) ;
+    text-align: center;
+}
+.logo-rodape{
+    padding-top: 1px;
+}
+.logo-rodape p {
+    font-weight:bolder;
+    color: #59342C;
+}
+.agencia{
+    font-family: 'Lobster', cursive;
+    color: #59342C;
+    font-size: 40px;
 }
