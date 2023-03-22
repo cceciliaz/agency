@@ -153,9 +153,10 @@ footer{
 .logo-rodape{
     padding-top: 1px;
 }
-.logo-rodape p {
+.logo-rodape p, a {
     font-weight:bolder;
     color: #59342C;
+    text-decoration: none;
 }
 .agencia{
     font-family: 'Lobster', cursive;
